@@ -6,7 +6,9 @@ namespace TrainingProject
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //todo TASK: using example, click on button on PDP
+            HomePage home = new HomePage();
+            home.openPDP();
         }
     }
 }
